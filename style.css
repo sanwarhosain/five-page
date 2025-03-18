@@ -1,0 +1,152 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    padding: 10px;
+    background: #004494;
+}
+
+nav a {
+    color: white;
+    padding: 12px 20px;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #002c6e;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+/* Paragraph Styling */
+.container p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* List Styling */
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container ul li {
+    background: #eef3fc;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.container ul li strong {
+    color: #004494;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #444;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Submit Button */
+button {
+    background: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    nav a {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
